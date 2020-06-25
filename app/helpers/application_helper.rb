@@ -7,4 +7,5 @@ def gravatar_for(user, options = { size:80 })
   image_tag(gravatar_url, alt: user.username, class: "shadow rounded mx-auto d-block")  
 end
 
+
 end
